@@ -2,11 +2,24 @@
   display: none;
 }
 
+#dog-showing {
+  display: none;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
 }
 
 .clickable:hover {
+  text-decoration: underline;
+}
+
+.dog {
+  color: rgb(30, 117, 30);
+
+}
+
+.dog:hover {
   text-decoration: underline;
 }
